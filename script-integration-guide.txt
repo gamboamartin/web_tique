@@ -1,0 +1,10 @@
+Template is compatible with our script:
+https://codecanyon.net/item/real-estate-agency-portal/6539169
+
+Download archive: http://geniuscript.com/classifiedplace-b3/script-integration-v2.zip
+
+Guide:
+Install script
+extract archive into templates folder
+Change template in Admin->Settings->Templates to bootstrap4
+

@@ -1,0 +1,49 @@
+{
+    "autoload": {
+        "psr-4": {
+            "config\\": "config/",
+            "src\\": "src/",
+            "models\\": "orm/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "gamboa.martin/errores": "^2.0.0",
+        "gamboa.martin/test": "^2.0.0",
+        "gamboa.martin/administrador": "^10.0.0",
+        "gamboa.martin/base_modelos": "^2.0.0",
+        "gamboa.martin/validacion": "^2.0.0",
+        "gamboa.martin/calculo": "^2.0.0",
+        "gamboa.martin/compresor": "^2.0.0",
+        "gamboa.martin/configuraciones": "^1.0.0",
+        "gamboa.martin/plugins": "^2.0.0",
+        "gamboa.martin/template_1": "^9.0.0",
+        "gamboa.martin/template": "^7.0.0",
+        "gamboa.martin/inmobiliaria": "dev-main",
+        "gamboa.martin/system": "^8.0.0",
+        "gamboa.martin/services": "^7.0.0",
+        "gamboa.martin/documento": "^6.0.0",
+        "gamboa.martin/comercial": "^8.0.0",
+        "gamboa.martin/nomina": "dev-master",
+        "gamboa.martin/js_base": "^2.0.0",
+        "gamboa.martin/xml_cfdi_4": "^2.0.0",
+        "gamboa.martin/cat_sat": "^8.0.0",
+        "gamboa.martin/empleado": "^2.0.0",
+        "gamboa.martin/im_registro_patronal": "^2.0.0",
+        "gamboa.martin/direccion_postal": "^10.0.0",
+        "gamboa.martin/organigrama": "^6.0.0",
+        "gamboa.martin/banco": "^2.0.0",
+        "gamboa.martin/facturacion": "^8.0.0",
+
+      "ext-pdo": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1"
+        }
+    }
+}

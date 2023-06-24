@@ -1,0 +1,10 @@
+<?php
+namespace config;
+class notificaciones{
+    public string $host = 'host';
+    public string $user_name = 'email';
+    public string $password = 'pass';
+    public string $smtp_secure = 'ssl|tls';
+    public int $port = 465|587;
+
+}

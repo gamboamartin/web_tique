@@ -1,0 +1,1 @@
+<div class="logo"><a href="#"><img src="assets/img/icons/Icono-TIQUE.png" alt="" /></a></div>
