@@ -24,6 +24,7 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/hogar-teva/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/lote-nicte/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-xadani/_carta_casa.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/hogar-ambar/_carta_casa.php' ?>
 
     </div><!-- /.properties -->
     <?php include $generales->path_base.'templates/lista_casas/_cantidad_paginas.php' ?>

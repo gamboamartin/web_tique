@@ -1,9 +1,44 @@
 <?php
+use base\conexion;
 use config\generales;
+use models\wt_hogar;
+
 include "../init.php";
 require '../vendor/autoload.php';
+
+
+$conf_database = new stdClass();
+
+$paths_conf = new stdClass();
+$paths_conf->generales = '/var/www/html/web_tique/config/generales.php';
+$paths_conf->database = '/var/www/html/web_tique/config/database.php';
+$paths_conf->views = '/var/www/html/web_tique/config/views.php';
+
+$cnx = new conexion(paths_conf: $paths_conf);
 $generales = new generales();
-$nombre_hogar = 'Hogar Ambar';
+
+require ($generales->path_base.'src/landing.php');
+
+$wt_hogar_modelo = new wt_hogar(conexion::$link);
+
+$url_landing = get_landing_url();
+$url_landing_limpia = limpia_url_landing(url_landing: $url_landing);
+$landing_url_sin_ext = quitar_php(url_landing_limpia: $url_landing_limpia);
+
+$wt_hogar = $wt_hogar_modelo->obtener_registro_wt_hogar($landing_url_sin_ext);
+
+$img_hogar = '';
+$nombre_hogar = '';
+
+if($wt_hogar > 0){
+    $img_hogar = $wt_hogar['wt_hogar_img_descripcion'];
+    $nombre_hogar = $wt_hogar['wt_hogar_descripcion'];
+    $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
+}
+
+$descripcion_twitter = 'Hogar Beatriz es una bonita vivienda que se encuentra situada dentro un tranquilo barrio de la ciudad de Guadalajara, ideal por su espacio acogedor y armonioso para vivir felizmente y en un entorno amigable, gracias a su excelente ubicación Hogar Beatriz cuenta con todos los servicios indispensables para una buena calidad de vida, hospitales, escuelas, tiendas de autoservicio, unidad deportiva.
+
+';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,10 +76,10 @@ $nombre_hogar = 'Hogar Ambar';
                 <div class="col-md-9">
                     <div class="widget widget-box box-container widget-property">
                         <?php include $generales->path_base.'templates/sliders/hogar-ambar/_slider_hogar_ambar.php' ?>
-                        <?php include $generales->path_base.'templates/descripcion/hogar-ambar/_descripcion_hogar_ambar.php.' ?>
+                        <?php include $generales->path_base.'templates/descripcion/hogar-ambar/_descripcion_hogar_ambar.php' ?>
                     </div> <!-- /. widget-body -->
                     <?php include $generales->path_base.'templates/detalles/hogar-ambar/_detalles_hogar_ambar_celular.php' ?>
-                    <?php include $generales->path_base.'templates/ubicaciones/hogar-ambar/_ubicacion_hogar_ambar.php' ?>
+                    <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     <?php include $generales->path_base.'templates/galeria/hogar-ambar/_galeria_hogar_ambar.php' ?>
 
 
