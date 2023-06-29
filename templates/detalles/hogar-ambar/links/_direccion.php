@@ -1,5 +1,5 @@
 <li>
     <span class="list-overview-option">Dirección</span>
-    <span class="list-overview-value">AV. DEL PARAÍSO #21, CONDOMINIO PRIVANZA RESIDENCIAL, TLAJOMULCO DE ZÚÑIGA, JAL.</span>
+    <span class="list-overview-value">Av. del Paraíso #21, Condominio Privanza Residencial, Tlajomulco de Zuñiga, Jal.</span>
 </li>
 
