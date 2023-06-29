@@ -4,6 +4,9 @@ $generales = new generales();
 ?>
 <div class="properties">
     <div class="row">
+
+        <?php include $generales->path_base.'templates/lista_casas/hogar-ambar/_carta_casa.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/hogar-ladera/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-xiadani/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-izel/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-paraiso/_carta_casa.php' ?>
@@ -24,8 +27,7 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/hogar-teva/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/lote-nicte/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-xadani/_carta_casa.php' ?>
-        <?php include $generales->path_base.'templates/lista_casas/hogar-ambar/_carta_casa.php' ?>
-        <?php include $generales->path_base.'templates/lista_casas/hogar-ladera/_carta_casa.php' ?>
+
 
 
     </div><!-- /.properties -->
