@@ -3,7 +3,7 @@ namespace config;
 class generales{
     public string $path_base;
     public string $session_id = '';
-    public string $url_base = 'http://localhost/web_tique/';
+    public string $url_base = 'https://inmobiliariatique.com/';
     public function __construct(){
         $this->path_base = '/var/www/html/web_tique/';
 
