@@ -8,6 +8,14 @@ $generales = new generales();
         <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_xiadani/1Fachada/9 (1).jpg" alt="Hogar Xiadani" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_xiadani.php'?>
     </div>
+    <div class="item">
+        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar-ladera/1Fachada/fachada_1.jpg" alt="Hogar Ladera" height="100%"/>
+        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_ladera.php'?>
+    </div>
+    <div class="item">
+        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_ambar/1Fachada/fachada_1.jpg" alt="Hogar Ambar" height="100%"/>
+        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_ambar.php'?>
+    </div>
     <div class="item ">
         <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_izel/1Fachada/img1.jpg" alt="Hogar Izel" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_izel.php'?>
