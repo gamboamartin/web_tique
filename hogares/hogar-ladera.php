@@ -90,7 +90,7 @@ $descripcion_twitter = '    Hogar ladera se ubica se encuentra ubicada en San Se
                         <?php include $generales->path_base.'templates/sliders/hogar-ladera/_slider_hogar_ladera.php' ?>
                         <?php include $generales->path_base.'templates/descripcion/hogar-ladera/_descripcion_hogar_ladera.php' ?>
                     </div> <!-- /. widget-body -->
-                    <?php include $generales->path_base.'templates/detalles/hogar-ladera/_detalles_hogar_ladera_celular.php' ?>
+                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
                     <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     <?php include $generales->path_base.'templates/galeria/hogar-ladera/_galeria_hogar.php' ?>
 
@@ -98,7 +98,7 @@ $descripcion_twitter = '    Hogar ladera se ubica se encuentra ubicada en San Se
                     <?php include $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
-                    <?php include $generales->path_base.'templates/detalles/hogar-ladera/_detalles_hogar_ladera.php' ?>
+                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php if ($proposito_hogar_id != 2)
