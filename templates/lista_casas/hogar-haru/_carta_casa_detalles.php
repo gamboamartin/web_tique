@@ -12,7 +12,7 @@ if(count($a)>2) {
 <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
 
 <div class="property-card-box card-box card-block" style="height: 170px !important;">
-    <h3 class="property-card-title"><a href="<?php echo $generales->url_base; ?>hogares/hogar-haru.php">Hogar haru</a></h3>
+    <h3 class="property-card-title"><a href="<?php echo $generales->url_base; ?>hogares/hogar-haru.php">Hogar Haru</a></h3>
     <div class="property-card-descr">
         Santo Tomás 2885 Int 1 Col. San Eugenio, Guadalajara, Jal.
     </div>
