@@ -36,7 +36,7 @@ if($wt_hogar > 0){
     $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
 }
 
-$descripcion_twitter = 'Hogar Beatriz es una bonita vivienda que se encuentra situada dentro un tranquilo barrio de la ciudad de Guadalajara, ideal por su espacio acogedor y armonioso para vivir felizmente y en un entorno amigable, gracias a su excelente ubicación Hogar Beatriz cuenta con todos los servicios indispensables para una buena calidad de vida, hospitales, escuelas, tiendas de autoservicio, unidad deportiva.
+$descripcion_twitter = 'Hogar Ambar es una excelente oportunidad de adquirir una hermosa casa dentro de un coto exclusivo y muy tranquilo, con acceso controlado, seguridad 24/7, es una opción ideal para vivir al Sur del área metropolitana de Guadalajara, esta hermosa vivienda se encuentra dentro del Coto Privanza Residencial ubicado en una de las zonas más exclusivas del Municipio de Tlajomulco, Jalisco, este coto caracteriza por su ambiente familiar diseñado para dar seguridad y tranquilidad a sus residentes, el mismo cuenta una infraestructura que ideal por sus área de esparcimiento, y deportivas, ideales para la convivencia.
 
 ';
 ?>
@@ -78,7 +78,7 @@ $descripcion_twitter = 'Hogar Beatriz es una bonita vivienda que se encuentra si
                         <?php include $generales->path_base.'templates/sliders/hogar-ambar/_slider_hogar_ambar.php' ?>
                         <?php include $generales->path_base.'templates/descripcion/hogar-ambar/_descripcion_hogar_ambar.php' ?>
                     </div> <!-- /. widget-body -->
-                    <?php include $generales->path_base.'templates/detalles/hogar-ambar/_detalles_hogar_ambar_celular.php' ?>
+                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
                     <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     <?php include $generales->path_base.'templates/galeria/hogar-ambar/_galeria_hogar_ambar.php' ?>
 
@@ -86,7 +86,7 @@ $descripcion_twitter = 'Hogar Beatriz es una bonita vivienda que se encuentra si
                     <?php include $generales->path_base.'templates/facebook/_fb_comments_hogar_eirene.php'?>
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
-                    <?php include $generales->path_base.'templates/detalles/hogar-ambar/_detalles_hogar_ambar.php' ?>
+                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion.php' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php include $generales->path_base.'templates/informacion/hogar-ambar/_informacio_hogar_ambar.php' ?>
