@@ -1,7 +1,7 @@
 <?php
 use config\generales;
 $generales = new generales();
-$numero=2495000;
+$numero=2245000;
 $costo= number_format($numero, 2);
 $a = explode(",", $costo);
 if(count($a)>2) {
