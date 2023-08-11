@@ -20,7 +20,7 @@ $generales = new generales();
 
         </div>
 
-        <?php include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/links/_marca_apartado.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-pasitea/_carta_casa_detalles.php' ?>
     </div>
 </div>
