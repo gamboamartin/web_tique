@@ -6,7 +6,7 @@ $generales = new generales();
     <div class="property-card card">
         <div class="property-card-header image-box">
 
-            <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_iris/1Fachada/img1.jpg" alt="" class="" />
+            <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_iris/1Fachada/fachada_1.jpg" alt="" class="" />
 
             <!--Casa destacada en caso de serlo-->
             <!--<div class="budget"><i class="fa fa-star"></i></div>-->
