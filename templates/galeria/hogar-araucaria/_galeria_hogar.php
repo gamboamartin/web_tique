@@ -1,7 +1,7 @@
 <?php
     $a = $generales->url_base."assets/img/venta_casas/hogar_araucaria/1Fachada/fachada_1.jpg";
-    $b = $generales->url_base."assets/img/venta_casas/hogar_araucaria/1Fachada/fachada_2.jpg";
-    $c = $generales->url_base."assets/img/venta_casas/hogar_araucaria/1Fachada/fachada_3.jpg";
+    $b = $generales->url_base."assets/img/venta_casas/hogar_araucaria/3Comedor/comedor_1.jpg";
+    $c = $generales->url_base."assets/img/venta_casas/hogar_araucaria/5Baño/baño_1.jpg";
 ?>
 
 
