@@ -24,11 +24,7 @@ $generales = new generales();
         </div>
 
 
-
-        <div class="apartado-venta">
-            <div class="marca"><?php include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?></div>
-            <div class="marca"><?php include $generales->path_base.'templates/lista_casas/links/_marca_apartado.php' ?></div>
-        </div>
+        <?php include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
 
 
         <?php include $generales->path_base.'templates/lista_casas/hogar-araucaria/_carta_casa_detalles.php' ?>
