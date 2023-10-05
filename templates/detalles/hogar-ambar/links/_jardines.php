@@ -1,5 +1,5 @@
 <li>
-    <span class="list-overview-option">Patio de servicio: </span>
-    <span class="list-overview-value">1</span>
+    <span class="list-overview-option">Patio: </span>
+    <span class="list-overview-value">De Servicio y Terraza</span>
 </li>
 
