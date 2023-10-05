@@ -78,7 +78,7 @@ $descripcion_twitter = 'Hogar Ambar es una excelente oportunidad de adquirir una
                         <?php include $generales->path_base.'templates/sliders/hogar-ambar/_slider_hogar_ambar.php' ?>
                         <?php include $generales->path_base.'templates/descripcion/hogar-ambar/_descripcion_hogar_ambar.php' ?>
                     </div> <!-- /. widget-body -->
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
+                    <?php include $generales->path_base.'templates/detalles/hogar-ambar/_detalles_hogar_ambar_celular.php' ?>
                     <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     <?php include $generales->path_base.'templates/galeria/hogar-ambar/_galeria_hogar_ambar.php' ?>
 
@@ -86,7 +86,7 @@ $descripcion_twitter = 'Hogar Ambar es una excelente oportunidad de adquirir una
                     <?php include $generales->path_base.'templates/facebook/_fb_comments_hogar_eirene.php'?>
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
+                    <?php include $generales->path_base.'templates/detalles/hogar-ambar/_detalles_hogar_ambar.php' ?>
                     <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion.php' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php include $generales->path_base.'templates/informacion/hogar-ambar/_informacio_hogar_ambar.php' ?>
