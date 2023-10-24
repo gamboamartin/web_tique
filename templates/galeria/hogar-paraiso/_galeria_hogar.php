@@ -1,5 +1,5 @@
 <?php
-    $a = $generales->url_base."assets/img/venta_casas/hogar_paraiso/1Fachada/img1.jpg";
+    $a = $generales->url_base."assets/img/venta_casas/hogar_paraiso/1Fachada/fachada_1.jpg";
     $b = $generales->url_base."assets/img/venta_casas/hogar_paraiso/9Entorno/WhatsApp Image 2023-04-18 at 2.11.14 PM.jpg";
     $c = $generales->url_base."assets/img/venta_casas/hogar_paraiso/3Cocina/WhatsApp Image 2023-04-28 at 11.05.25 AM.jpg";
 ?>
