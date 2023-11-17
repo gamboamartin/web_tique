@@ -23,7 +23,7 @@ $generales = new generales();
 
         </div>
 
-        <?php include $generales->path_base.'templates/lista_casas/links/_marca_apartado.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/links/_marca_vendida.php' ?>
 
 
         <?php include $generales->path_base.'templates/lista_casas/links/_marca_oferta.php' ?>
