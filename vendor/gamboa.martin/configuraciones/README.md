@@ -1,2 +1,0 @@
-# configuraciones
-Configuraciones Example

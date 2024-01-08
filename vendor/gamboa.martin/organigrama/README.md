@@ -1,2 +1,0 @@
-# organigrama
-Organigrama

@@ -52,5 +52,5 @@ config/views.php
 config/pac.php
 config/notificaciones.php
 Recibos por periodo.zip
-vendor
+vendor/
 archivos
