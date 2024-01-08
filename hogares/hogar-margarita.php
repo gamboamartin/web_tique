@@ -81,7 +81,6 @@ Hogar Margarita es una Casa Habitación de dos niveles que se distribuye de la s
                         <?php include $generales->path_base.'templates/sliders/hogar_margarita/_slider_hogar_margarita.php' ?>
                         <?php include $generales->path_base.'templates/descripcion/hogar_margarita/_descripcion_hogar_margarita.php' ?>
                     </div> <!-- /. widget-body -->
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     <?php include $generales->path_base.'templates/galeria/hogar-margarita/_galeria_hogar.php' ?>
 
