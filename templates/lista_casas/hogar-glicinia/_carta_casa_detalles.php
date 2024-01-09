@@ -10,8 +10,8 @@ if(count($a)>2) {
 }
 ?>
 <div class="property-card-box card-box card-block" style="height: 170px !important;">
-    <h3 class="property-card-title"><a href="<?php echo $generales->url_base; ?>hogares/hogar-margarita.php">Hogar Margarita</a></h3>
-    <div class="property-card-descr"> C.Margarita #69 Fracc. Los alcatraces, Tlajomulco de Zúñiga, Jal.</div>
+    <h3 class="property-card-title"><a href="<?php echo $generales->url_base; ?>hogares/hogar-glicinia.php">Hogar Glicinia</a></h3>
+    <div class="property-card-descr">Cto. Sosola #72 Fracc. Hda Santa Fe, Cluster 28, Tlajomulco de Zúñiga, Jal</div>
     <div class="property-preview-footer  clearfix">
         <div class="property-preview-f-left text-color-primary">
             <span class="property-card-value">
