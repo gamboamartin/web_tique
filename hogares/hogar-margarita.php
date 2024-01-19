@@ -89,7 +89,7 @@ Hogar Margarita es una Casa Habitación de dos niveles que se distribuye de la s
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
-                    <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion.php' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
+                    <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-hogar-margarita.php' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php include $generales->path_base.'templates/informacion/_informacion_hogar_general.php' ?>
 

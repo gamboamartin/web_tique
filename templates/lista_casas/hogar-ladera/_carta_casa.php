@@ -33,7 +33,7 @@ $generales = new generales();
 <script>
     function getlinkOrquidea() {
         var aux = document.createElement("input");
-        aux.setAttribute("value","<?php echo $generales->url_base; ?>hogares/hogar-ladera.php");
+        aux.setAttribute("value","<?php echo $generales->url_base; ?>hogares/hogar_ladera.php");
         document.body.appendChild(aux);
         aux.select();
         document.execCommand("copy");

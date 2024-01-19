@@ -87,7 +87,7 @@ $descripcion_twitter = 'Hogar Ambar es una excelente oportunidad de adquirir una
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
                     <?php include $generales->path_base.'templates/detalles/hogar-ambar/_detalles_hogar_ambar.php' ?>
-                    <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion.php' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
+                    <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-hogar-ambar.php' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php include $generales->path_base.'templates/informacion/hogar-ambar/_informacio_hogar_ambar.php' ?>
 

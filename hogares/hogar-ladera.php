@@ -99,7 +99,7 @@ $descripcion_twitter = '    Hogar ladera se ubica se encuentra ubicada en San Se
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
-                    <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
+                    <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-hogar-ladera.php '<?php echo $url_landing_limpia?>' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php if ($proposito_hogar_id != 2)
                         include $generales->path_base.'templates/informacion/hogar-ladera/_informacion_hogar_general.php' ?>

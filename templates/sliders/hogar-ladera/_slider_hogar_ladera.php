@@ -6,8 +6,8 @@ $generales = new generales();
     <div id="property-slider" class="property-slider carousel slide" data-ride="carousel">
         <!-- Content -->
         <?php
-            $carpeta_hogar = $generales->path_base.'assets/img/venta_casas/hogar-ladera/';
-            $direccion_hogar = $generales->url_base.'assets/img/venta_casas/hogar-ladera/';
+            $carpeta_hogar = $generales->path_base.'assets/img/venta_casas/hogar_ladera/';
+            $direccion_hogar = $generales->url_base.'assets/img/venta_casas/hogar_ladera/';
             $carpetas = scandir($carpeta_hogar, SCANDIR_SORT_ASCENDING);
             $img_activo = false;
 
