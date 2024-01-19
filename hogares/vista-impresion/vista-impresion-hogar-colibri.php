@@ -57,7 +57,7 @@ if($wt_hogar > 0){
                 <img src="<?php echo $generales->url_base?>assets/img/icons/Logotipo-TIQUE.png" width="40%">
                 <div class="col-md-9">
                     <div class="widget widget-box box-container widget-property">
-                        <?php include $generales->path_base.'templates/sliders/hogar-ladera/_slider_hogar_ladera.php' ?>
+                        <?php include $generales->path_base.'templates/sliders/hogar_colibri/_slider_hogar_colibri.php' ?>
                         <?php include $generales->path_base.'templates/descripcion/_descripcion_general_print.php' ?>
                     </div> <!-- /. widget-body -->
                     <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
