@@ -6,11 +6,11 @@ $generales = new generales();
     <div class="property-card card">
         <div class="property-card-header image-box">
 
-            <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_glicinia/1Fachada/fachada_1.jpg" alt="" class="" />
+            <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_ketzaly/1Fachada/fachada_1.jpg" alt="" class="" />
 
             <!--Casa destacada en caso de serlo-->
             <!--<div class="budget"><i class="fa fa-star"></i></div>-->
-            <a href="<?php echo $generales->url_base; ?>hogares/hogar-glicinia.php" class="property-card-hover">
+            <a href="<?php echo $generales->url_base; ?>hogares/hogar-ketzaly.php" class="property-card-hover">
 
                 <img src="<?php echo $generales->url_base; ?>assets/img/plus.png" alt="" class="center-icon" />
                 <img src="<?php echo $generales->url_base; ?>assets/img/icon-notice.png" alt="" class="right-icon" />
@@ -25,16 +25,16 @@ $generales = new generales();
 
 
 
-        <?php include $generales->path_base.'templates/lista_casas/links/_marca_vendida.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
 
 
-        <?php include $generales->path_base.'templates/lista_casas/hogar-glicinia/_carta_casa_detalles.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/hogar-ketzaly/_carta_casa_detalles.php' ?>
     </div>
 </div>
 <script>
     function getlinkOrquidea() {
         var aux = document.createElement("input");
-        aux.setAttribute("value","<?php echo $generales->url_base; ?>hogares/hogar-glicinia.php");
+        aux.setAttribute("value","<?php echo $generales->url_base; ?>hogares/hogar-ketzaly.php");
         document.body.appendChild(aux);
         aux.select();
         document.execCommand("copy");
