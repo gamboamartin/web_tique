@@ -25,8 +25,7 @@ $generales = new generales();
 
 
 
-        <?php include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
-        <?php include $generales->path_base.'templates/lista_casas/links/_marca_oferta.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/links/_marca_apartado.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-ladera/_carta_casa_detalles.php' ?>
     </div>
 </div>
