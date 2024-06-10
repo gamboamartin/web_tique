@@ -12,12 +12,13 @@ $paths_conf = new stdClass();
 $paths_conf->generales = '/var/www/html/web_tique/config/generales.php';
 $paths_conf->database = '/var/www/html/web_tique/config/database.php';
 $paths_conf->views = '/var/www/html/web_tique/config/views.php';
-$i=0;
+
+$number = 0;
+
 $cnx = new conexion(paths_conf: $paths_conf);
 $generales = new generales();
 
 $wt_hogar_modelo = new wt_hogar(conexion::$link);
-$x =[950000, 480000, 876000, 980000, 1380000, 1190000, 920000, 1970000, 238000, 1120000, 1200000, 3180000, 3460000, 3560000, 7134000, 1595000, 2120000, 2495000, 1280000, 160000, 3560000, 7134000, 1595000, 2120000, 2495000, 1280000, 160000];
 $hogares = array();
 
 foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){
@@ -30,7 +31,7 @@ foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){
     $hogar[]=$registro['wt_hogar_ubicacion'];
     $hogar[]=$registro['wt_hogar_wt_tipo_inmueble_id'];
     $hogar[]=$registro['wt_hogar_terreno'];
-    $costo= number_format($x[$i], 2);
+    $costo= number_format($number, 2, );
     $a = explode(",", $costo);
     if(count($a)>2) {
         $b = explode(",", $costo,2);
@@ -38,7 +39,7 @@ foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){
     }
 
     $hogar[]=$costo;
-    $i++;
+    //$i++;
     /*$hogar['wt_hogar_georeferencia'] = $registro['wt_hogar_georeferencia'];
     $hogar['wt_hogar_logo'] = 'assets/img/icons/Icono-TIQUE-pin.png';
     $hogar['wt_hogar_img_descripcion'] = $registro['wt_hogar_img_descripcion'];
