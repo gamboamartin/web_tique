@@ -1,7 +1,7 @@
 <?php
 $a = $generales->url_base."assets/img/venta_casas/hogar_ketzaly/1Fachada/fachada_1.jpg";
-$b = $generales->url_base."assets/img/venta_casas/hogar_ketzaly/3Comedor/comedor_1.jpg";
-$c = $generales->url_base."assets/img/venta_casas/hogar_ketzaly/2Sala/sala_1.jpg";
+$b = $generales->url_base."assets/img/venta_casas/hogar_ketzaly/2Sala/sala_1.jpg";
+$c = $generales->url_base."assets/img/venta_casas/hogar_ketzaly/4Recamara1/recamara1_1.jpg";
 ?>
 
 
