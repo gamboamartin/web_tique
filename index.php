@@ -34,12 +34,11 @@ $generales = new generales();
 
                             <?php if(isset($_POST['seccion'])){
                                 if($_POST['seccion']==1 and $_POST['ubi']=="") {
-                                    include $generales->path_base.'templates/lista_casas/hogar-venus/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-pasitea/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-orquidea/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-aruna/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-beatriz/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-eirene/_carta_casa.php';
+                                    include $generales->path_base.'templates/lista_casas/hogar-ketzaly/_carta_casa.php';
+                                    include $generales->path_base.'templates/lista_casas/hogar-ambar/_carta_casa.php';
+                                    include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php';
+                                    include $generales->path_base.'templates/lista_casas/hogar-margarita/_carta_casa.php';
+                                    include $generales->path_base.'templates/lista_casas/hogar-ladera/_carta_casa.php';
                                 }
                                 elseif ( $_POST['ubi']=='Zapopan'){
                                     include $generales->path_base . 'templates/lista_casas/hogar-orquidea/_carta_casa.php';
