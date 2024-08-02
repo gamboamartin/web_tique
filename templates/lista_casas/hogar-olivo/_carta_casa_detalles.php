@@ -1,7 +1,7 @@
 <?php
 use config\generales;
 $generales = new generales();
-$numero=1849000;
+$numero=780000;
 $costo= number_format($numero, 2);
 $a = explode(",", $costo);
 if(count($a)>2) {
@@ -10,8 +10,8 @@ if(count($a)>2) {
 }
 ?>
 <div class="property-card-box card-box card-block" style="height: 170px !important;">
-    <h3 class="property-card-title"><a href="<?php echo $generales->url_base; ?>hogares/hogar-girasol.php">Hogar Girasol</a></h3>
-    <div class="property-card-descr">C. Paseo De La Reina Isabel 36, Fracc. Colinas Del Rey, Zapopan, Jal.</div>
+    <h3 class="property-card-title"><a href="<?php echo $generales->url_base; ?>hogares/hogar-olivo.php">Hogar Olivo</a></h3>
+    <div class="property-card-descr">C. Valle De Los Guamuchiles 53, Fracc. Hacienda Los Eucaliptos, Tlajomulco De Zuñiga, Jal.</div>
     <div class="property-preview-footer  clearfix">
         <div class="property-preview-f-left text-color-primary">
             <span class="property-card-value">
