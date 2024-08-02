@@ -9,6 +9,10 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_ketzaly.php'?>
     </div>
     <div class="item">
+        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_girasol/1Fachada/fachada_1.jpg" alt="Hogar girasol" height="100%"/>
+        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_girasol.php'?>
+    </div>
+    <div class="item">
         <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_ladera/1Fachada/fachada_1.jpg" alt="Hogar Ladera" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_ladera.php'?>
     </div>
