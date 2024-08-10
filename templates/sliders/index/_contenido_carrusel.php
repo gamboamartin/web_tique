@@ -9,15 +9,19 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_ketzaly.php'?>
     </div>
     <div class="item">
-        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_girasol/1Fachada/fachada_1.jpg" alt="Hogar girasol" height="100%"/>
+        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_girasol/1Fachada/fachada_1.jpg" alt="Hogar Girasol" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_girasol.php'?>
     </div>
     <div class="item">
-        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_kian/1Fachada/fachada_1.jpg" alt="Hogar kian" height="100%"/>
+        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_azalea/1Fachada/fachada_1.jpg" alt="Hogar Azalea" height="100%"/>
+        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_azalea.php'?>
+    </div>
+    <div class="item">
+        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_kian/1Fachada/fachada_1.jpg" alt="Hogar Kian" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_kian.php'?>
     </div>
     <div class="item">
-        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_olivo/1Fachada/fachada_1.jpg" alt="Hogar olivo" height="100%"/>
+        <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_olivo/1Fachada/fachada_1.jpg" alt="Hogar Olivo" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_olivo.php'?>
     </div>
     <div class="item">

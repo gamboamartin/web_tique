@@ -6,4 +6,6 @@
     <li data-target="#header-slider" data-slide-to="4"></li>
     <li data-target="#header-slider" data-slide-to="5"></li>
     <li data-target="#header-slider" data-slide-to="6"></li>
+    <li data-target="#header-slider" data-slide-to="7"></li>
+    <li data-target="#header-slider" data-slide-to="8"></li>
 </ol>
