@@ -34,6 +34,7 @@ $generales = new generales();
 
                             <?php if(isset($_POST['seccion'])){
                                 if($_POST['seccion']==1 and $_POST['ubi']=="") {
+                                    include $generales->path_base.'templates/lista_casas/hogar-kian/_carta_casa.php';
                                     include $generales->path_base.'templates/lista_casas/hogar-olivo/_carta_casa.php';
                                     include $generales->path_base.'templates/lista_casas/hogar-girasol/_carta_casa.php';
                                     include $generales->path_base.'templates/lista_casas/hogar-ketzaly/_carta_casa.php';
