@@ -1,7 +1,7 @@
 <?php
 $a = $generales->url_base."assets/img/venta_casas/hogar_kian/1Fachada/fachada_1.jpg";
 $b = $generales->url_base."assets/img/venta_casas/hogar_kian/2Sala/sala_1.jpg";
-$c = $generales->url_base."assets/img/venta_casas/hogar_kian/3Comedor/comedor_1.jpg";
+$c = $generales->url_base."assets/img/venta_casas/hogar_kian/3Cocina/cocina_1.jpg";
 ?>
 
 
